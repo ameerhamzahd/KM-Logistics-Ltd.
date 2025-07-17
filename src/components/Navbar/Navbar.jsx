@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <div className='flex fixed top-0 z-50 justify-center w-full'>
-            <nav className="navbar flex justify-between max-w-7xl mx-auto rounded-3xl my-5 shadow-sm px-5">
+            <nav className="navbar flex justify-between max-w-7xl mx-auto rounded-3xl my-5 shadow-sm px-5 bg-white">
                 <div className=" hidden lg:flex">
                     <ul className="menu-horizontal px-1 gap-5">
                         <li><NavLink to="/" className={navLinkStyle}>Home</NavLink></li>
