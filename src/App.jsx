@@ -2,6 +2,7 @@ import './App.css'
 import AboutUs from './components/AboutUs/AboutUs'
 import Banner from './components/Banner/Banner'
 import CarrierOptions from './components/CarrierOptions/CareerOptions'
+import KeyMetrics from './components/KeyMetrics/KeyMetrics'
 import Navbar from './components/Navbar/Navbar'
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
 
           <div>
             <CarrierOptions></CarrierOptions>
+          </div>
+
+          <div>
+            <KeyMetrics></KeyMetrics>
           </div>
         </main>
 

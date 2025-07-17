@@ -32,28 +32,9 @@ const carrierData = [
   },
 ];
 
-const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 1536 },
-      items: 3,
-    },
-    desktop: {
-      breakpoint: { max: 1536, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 640 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 640, min: 0 },
-      items: 1,
-    },
-  };
-
 const CarrierOptions = () => {
   return (
-    <section className="py-16 max-w-11/12 mx-auto bg-[#f7f3fa] rounded-3xl">
+    <section className="px-4 lg:px-0 py-16 max-w-11/12 mx-auto bg-[#f7f3fa] rounded-3xl">
       <div className="max-w-7xl mx-auto text-center">
         {/* Badge */}
         <div className="inline-block bg-white text-sm text-gray-800 font-medium px-4 py-1 rounded-full shadow-md">
