@@ -16,7 +16,7 @@ const AboutUs = () => {
             <br />
             <span className="text-gray-400">Service Provider</span>
           </h2>
-          <p className="text-gray-600 text-base leading-relaxed">
+          <p className="text-gray-700 text-base leading-relaxed">
             KM Logistics Limited is a trusted and reliable logistics company with 4 years of combined industry experience. We provide professional trucking services across Canada, prioritizing honesty, integrity, and customer satisfaction—values often overlooked in today’s transport industry. At KM Logistics, we specialize in exceptional customer care, delivering friendly, knowledgeable service to every client and partner.
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
@@ -34,7 +34,7 @@ const AboutUs = () => {
           <img
             src={leftImg}
             alt="Main Truck"
-            className="row-span-2 rounded-lg object-cover w-full h-full"
+            className="row-span-2 rounded-lg object-cover object-right w-full h-full"
           />
           <img
             src={rightImg}
