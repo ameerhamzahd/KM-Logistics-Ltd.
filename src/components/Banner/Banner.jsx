@@ -74,23 +74,98 @@ const Banner = () => {
 
                 {/* Bubbles with modes */}
                 <div className="hidden md:flex absolute bottom-8 right-8 flex-col items-end gap-3 z-10 shadow-lg border-l-2 border-t-2 border-white rounded-full">
-
-                    {/* Sea */}
+                    {/* Circle image */}
                     <div className="relative flex items-center justify-end">
-                        <div className="bg-white text-black text-[10px] rounded-full px-2 py-0.5 shadow absolute right-1/4 bottom-11/12 mb-2">
-                            01 / Sea
-                        </div>
-                        <div className="bg-white text-black text-[10px] rounded-full px-2 py-0.5 shadow absolute right-9/12 bottom-2/3">
-                            02 / Air
-                        </div>
-                        <div className="bg-white text-black text-[10px] rounded-full px-2 py-0.5 shadow absolute right-2/3 top-11/12">
-                            03 / Land
-                        </div>
                         <img
                             src="/src/assets/side-pic.jpg"
                             alt="Side"
                             className="w-40 h-40 rounded-full object-cover m-3"
                         />
+
+                        {/* 01 / Sea */}
+                        <div className="absolute -top-8 right-5 flex flex-col items-center">
+                            {/* SVG pill bubble background */}
+                            <svg
+                                width="82"
+                                height="54"
+                                viewBox="0 0 82 54"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="absolute"
+                            >
+                                <g filter="url(#filter0_f_1_62)">
+                                    <path d="M79 23C79 25.7614 76.7614 28 74 28H47.3164C44.555 28 42.3164 30.2386 42.3164 33V39.6701C42.3164 41.7973 44.0377 43.6383 44.7621 45.6383C44.9161 46.0633 45 46.5218 45 47C45 49.2091 43.2091 51 41 51C38.7909 51 37 49.2091 37 47C37 46.5191 37.0849 46.0579 37.2405 45.6308C38.0213 43.4872 40 41.5313 40 39.2499V33C40 30.2386 37.7614 28 35 28H8C5.23858 28 3 25.7614 3 23V8C3 5.23858 5.23858 3 8 3H74C76.7614 3 79 5.23858 79 8V23Z" fill="white" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_1_62" x="0.5" y="0.5" width="81" height="53" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                                    </filter>
+                                </defs>
+                            </svg>
+
+                            {/* Label overlay on top of SVG */}
+                            <div className="relative text-black text-xs font-bold mt-2">
+                                01 / Sea
+                            </div>
+                        </div>
+
+
+                        {/* 02 / Air */}
+                        <div className="absolute top-0 -left-2 flex flex-col items-center">
+                            {/* SVG pill bubble background */}
+                            <svg
+                                width="82"
+                                height="54"
+                                viewBox="0 0 82 54"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="absolute"
+                            >
+                                <g filter="url(#filter0_f_1_62)">
+                                    <path d="M79 23C79 25.7614 76.7614 28 74 28H47.3164C44.555 28 42.3164 30.2386 42.3164 33V39.6701C42.3164 41.7973 44.0377 43.6383 44.7621 45.6383C44.9161 46.0633 45 46.5218 45 47C45 49.2091 43.2091 51 41 51C38.7909 51 37 49.2091 37 47C37 46.5191 37.0849 46.0579 37.2405 45.6308C38.0213 43.4872 40 41.5313 40 39.2499V33C40 30.2386 37.7614 28 35 28H8C5.23858 28 3 25.7614 3 23V8C3 5.23858 5.23858 3 8 3H74C76.7614 3 79 5.23858 79 8V23Z" fill="white" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_1_62" x="0.5" y="0.5" width="81" height="53" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                                    </filter>
+                                </defs>
+                            </svg>
+
+                            {/* Label overlay on top of SVG */}
+                            <div className="relative text-black text-xs font-bold mt-2">
+                                02 / Air
+                            </div>
+                        </div>
+
+                        {/* 03 / Land */}
+                        <div className="absolute top-30 left-3 flex flex-col items-center">
+                            {/* SVG pill bubble background */}
+                            <svg
+                                width="82"
+                                height="54"
+                                viewBox="0 0 82 54"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="absolute"
+                            >
+                                <g filter="url(#filter0_f_1_62)">
+                                    <path d="M79 23C79 25.7614 76.7614 28 74 28H47.3164C44.555 28 42.3164 30.2386 42.3164 33V39.6701C42.3164 41.7973 44.0377 43.6383 44.7621 45.6383C44.9161 46.0633 45 46.5218 45 47C45 49.2091 43.2091 51 41 51C38.7909 51 37 49.2091 37 47C37 46.5191 37.0849 46.0579 37.2405 45.6308C38.0213 43.4872 40 41.5313 40 39.2499V33C40 30.2386 37.7614 28 35 28H8C5.23858 28 3 25.7614 3 23V8C3 5.23858 5.23858 3 8 3H74C76.7614 3 79 5.23858 79 8V23Z" fill="white" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_1_62" x="0.5" y="0.5" width="81" height="53" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                                    </filter>
+                                </defs>
+                            </svg>
+
+                            {/* Label overlay on top of SVG */}
+                            <div className="relative text-black text-xs font-bold mt-2">
+                                03 / Land
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
