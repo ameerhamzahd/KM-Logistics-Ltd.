@@ -3,6 +3,7 @@ import React from "react";
 import CountUp from "react-countup";
 import pinkish from "../../assets/pinkish.png";
 import bluish from "../../assets/bluish.png";
+import violet from "../../assets/violet.png";
 
 const metrics = [
     {
@@ -33,7 +34,13 @@ const metrics = [
 
 const KeyMetrics = () => {
     return (
-        <section className="py-16 px-4 md:px-0">
+        <section className="py-16 px-4 md:px-0"
+        style={{
+            backgroundImage: `url(${pinkish}), url(${bluish}), url(${violet})`,
+            backgroundPosition: "top 15% left 5%, top 15% left 35%, top -50% right 5%",
+            backgroundRepeat: "no-repeat, no-repeat, no-repeat",
+            backgroundSize: "200px, 400px, 300px"
+        }}>
             <div className="max-w-11/12 mx-auto">
                 {/* Tag */}
                 <div className="flex justify-center">
@@ -43,14 +50,7 @@ const KeyMetrics = () => {
                 </div>
 
                 {/* Grid layout */}
-                <div className="grid grid-cols-1 md:grid-cols-2 pt-5 md:border-b-2 md:border-dotted md:border-gray-400"
-                style={{
-                    backgroundImage: `url(${pinkish}), url(${bluish})`,
-                    backgroundPosition: "bottom left, top right",
-                    backgroundRepeat: "no-repeat, no-repeat",
-                    backgroundSize: "400px, 400px"
-                }}
-                >
+                <div className="grid grid-cols-1 md:grid-cols-2 pt-5 md:border-b-2 md:border-dotted md:border-gray-400">
                     <div className="md:border-r-2 md:border-dotted md:border-gray-400">
                         {/* Title and subtitle */}
                         <div className="md:mt-10 p-8 md:border-b-2 md:border-dotted md:border-gray-400">

@@ -4,6 +4,7 @@ import Banner from './components/Banner/Banner'
 import CarrierOptions from './components/CarrierOptions/CareerOptions'
 import KeyMetrics from './components/KeyMetrics/KeyMetrics'
 import Navbar from './components/Navbar/Navbar'
+import OurServices from './components/OurServices/OurServices'
 
 function App() {
 
@@ -26,6 +27,10 @@ function App() {
 
           <div>
             <KeyMetrics></KeyMetrics>
+          </div>
+
+          <div>
+            <OurServices></OurServices>
           </div>
         </main>
 
