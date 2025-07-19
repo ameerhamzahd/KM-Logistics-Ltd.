@@ -66,10 +66,10 @@ const CarrierOptions = () => {
                 <FaGlobe />
                 {item.icon}
               </div>
-              <div className="absolute bottom-4 left-4 text-white text-lg font-semibold">
+              <div className="absolute bottom-4 left-4 text-white text-lg font-medium">
                 {item.title}
               </div>
-              <div className="absolute bottom-4 right-4 text-white text-lg font-semibold">
+              <div className="absolute bottom-4 right-4 text-white text-lg font-medium">
                 {item.number}
               </div>
             </div>

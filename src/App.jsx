@@ -6,6 +6,7 @@ import Facilities from './components/Facilities/Facilities'
 import KeyMetrics from './components/KeyMetrics/KeyMetrics'
 import Navbar from './components/Navbar/Navbar'
 import OurServices from './components/OurServices/OurServices'
+import Team from './components/Team/Team'
 
 function App() {
 
@@ -36,6 +37,10 @@ function App() {
 
           <div>
             <Facilities></Facilities>
+          </div>
+
+          <div>
+            <Team></Team>
           </div>
         </main>
 

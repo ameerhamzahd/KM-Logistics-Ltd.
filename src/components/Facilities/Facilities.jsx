@@ -26,7 +26,7 @@ const containerData = [
 
 const Facilities = () => {
     return (
-        <section className="py-16 px-4 bg-white">
+        <section className="py-16 px-4 lg:px-0 bg-white">
             <div className="max-w-11/12 mx-auto">
                 {/* Title */}
                 <div className="mb-10 flex flex-col lg:flex-row justify-between">
