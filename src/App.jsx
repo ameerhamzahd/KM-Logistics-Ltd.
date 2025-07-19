@@ -2,6 +2,7 @@ import './App.css'
 import AboutUs from './components/AboutUs/AboutUs'
 import Banner from './components/Banner/Banner'
 import CarrierOptions from './components/CarrierOptions/CareerOptions'
+import Facilities from './components/Facilities/Facilities'
 import KeyMetrics from './components/KeyMetrics/KeyMetrics'
 import Navbar from './components/Navbar/Navbar'
 import OurServices from './components/OurServices/OurServices'
@@ -31,6 +32,10 @@ function App() {
 
           <div>
             <OurServices></OurServices>
+          </div>
+
+          <div>
+            <Facilities></Facilities>
           </div>
         </main>
 
