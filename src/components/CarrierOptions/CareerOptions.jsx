@@ -1,8 +1,6 @@
-// CarrierOptions.jsx
 import React from "react";
 import { FaGlobe, FaShippingFast } from "react-icons/fa";
 import { FaShip } from "react-icons/fa6";
-import { LuArrowLeftRight } from "react-icons/lu";
 import ship from "../../assets/ship.jpg";
 import plane from "../../assets/plane.jpg";
 import truck from "../../assets/truck.jpg";

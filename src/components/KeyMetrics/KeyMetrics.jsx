@@ -1,4 +1,3 @@
-// KeyMetrics.jsx
 import React from "react";
 import CountUp from "react-countup";
 import pinkish from "../../assets/pinkish.png";
