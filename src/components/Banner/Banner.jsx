@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 import { FaShippingFast } from 'react-icons/fa';
 import { BiSolidPlaneAlt } from 'react-icons/bi';
 import { GiCargoShip } from 'react-icons/gi';
+import banner from "../../assets/banner.jpg"
 
 const Banner = () => {
     return (
@@ -12,7 +13,7 @@ const Banner = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, delay: 0.6 }}
-                src="/src/assets/banner.jpg"
+                src={banner}
                 alt="Shipping Containers"
                 className="absolute inset-0 w-full h-full object-cover"
             />
