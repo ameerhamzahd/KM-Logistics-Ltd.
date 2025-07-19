@@ -1,6 +1,8 @@
+// CarrierOptions.jsx
 import React from "react";
 import { FaGlobe, FaShippingFast } from "react-icons/fa";
 import { FaShip } from "react-icons/fa6";
+import { LuArrowLeftRight } from "react-icons/lu";
 import ship from "../../assets/ship.jpg";
 import plane from "../../assets/plane.jpg";
 import truck from "../../assets/truck.jpg";
@@ -47,8 +49,12 @@ const CarrierOptions = () => {
           Explore the wide range of vehicles and transportation modes we operate to offer flexible, reliable logistics solutions.
         </p>
 
+        <div className="flex justify-end">
+        <p className="text-3xl cursor-pointer">{"< -"} <span className="opacity-25">{"-"}</span> {">"}</p>
+        </div>
+
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-12">
           {carrierData.map((item) => (
             <div
               key={item.id}
@@ -64,10 +70,10 @@ const CarrierOptions = () => {
                 <FaGlobe />
                 {item.icon}
               </div>
-              <div className="absolute bottom-4 left-4 text-white text-lg font-medium">
+              <div className="absolute bottom-4 left-4 text-white text-lg font-semibold">
                 {item.title}
               </div>
-              <div className="absolute bottom-4 right-4 text-white text-lg font-medium">
+              <div className="absolute bottom-4 right-4 text-white text-lg font-semibold">
                 {item.number}
               </div>
             </div>

@@ -45,16 +45,16 @@ const Footer = () => {
                     </div>
 
                     <div className="flex gap-4">
-                        <button className="w-10 h-10 flex items-center justify-center bg-[#0087DB] rounded-full hover:bg-[#0073b7] transition">
+                        <button className="w-10 h-10 flex items-center justify-center bg-[#0087DB]/50 rounded-full hover:bg-[#0073b7] transition">
                             <FaFacebookF className="text-white text-lg" />
                         </button>
-                        <button className="w-10 h-10 flex items-center justify-center bg-[#0087DB] rounded-full hover:bg-[#0073b7] transition">
+                        <button className="w-10 h-10 flex items-center justify-center bg-[#0087DB]/50 rounded-full hover:bg-[#0073b7] transition">
                             <FaInstagram className="text-white text-lg" />
                         </button>
-                        <button className="w-10 h-10 flex items-center justify-center bg-[#0087DB] rounded-full hover:bg-[#0073b7] transition">
+                        <button className="w-10 h-10 flex items-center justify-center bg-[#0087DB]/50 rounded-full hover:bg-[#0073b7] transition">
                             <FaLinkedinIn className="text-white text-lg" />
                         </button>
-                        <button className="w-10 h-10 flex items-center justify-center bg-[#0087DB] rounded-full hover:bg-[#0073b7] transition">
+                        <button className="w-10 h-10 flex items-center justify-center bg-[#0087DB]/50 rounded-full hover:bg-[#0073b7] transition">
                             <FaTwitter className="text-white text-lg" />
                         </button>
                     </div>

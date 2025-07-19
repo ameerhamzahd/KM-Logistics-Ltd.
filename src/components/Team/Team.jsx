@@ -17,7 +17,7 @@ const teamMembers = [
 
 const Team = () => {
     return (
-        <section className="py-16 px-4 lg:px-0 text-center">
+        <section className="pb -16 px-4 lg:px-0 text-center">
             <div className="max-w-2xl mx-auto">
                 {/* Badge */}
                 <div className="mb-8">

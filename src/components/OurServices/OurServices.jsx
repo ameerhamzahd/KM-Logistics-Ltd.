@@ -26,7 +26,7 @@ const services = [
 
 const OurServices = () => {
   return (
-    <section className="max-w-11/12 mx-auto px-4 lg:px-0 py-16">
+    <section className="max-w-11/12 mx-auto px-4 lg:px-0 pb-16">
       {/* Tag */}
       <div className="flex flex-col lg:flex-row justify-between">
       <div className="mb-8">
