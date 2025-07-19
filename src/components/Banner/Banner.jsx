@@ -4,6 +4,9 @@ import { FaShippingFast } from 'react-icons/fa';
 import { BiSolidPlaneAlt } from 'react-icons/bi';
 import { GiCargoShip } from 'react-icons/gi';
 import banner from "../../assets/banner.jpg"
+import ship from "../../assets/ship.jpg"
+import truck from "../../assets/truck.jpg"
+import plane from "../../assets/plane.jpg"
 
 const Banner = () => {
     return (
@@ -63,9 +66,9 @@ const Banner = () => {
                             className="mt-6 px-6 py-3 bg-white text-black rounded-3xl font-semibold shadow-md hover:bg-gray-200 transition flex items-center gap-2"
                         >
                             <div className="flex items-center rounded-3xl">
-                                <img src="/src/assets/ship.jpg" alt="Ship" className="w-10 h-10 rounded-lg object-cover" />
-                                <img src="/src/assets/plane.jpg" alt="Plane" className="w-10 h-10 rounded-lg object-cover -ml-2" />
-                                <img src="/src/assets/truck.jpg" alt="Truck" className="w-10 h-10 rounded-lg object-cover -ml-2" />
+                                <img src={ship} alt="Ship" className="w-10 h-10 rounded-lg object-cover" />
+                                <img src={plane} alt="Plane" className="w-10 h-10 rounded-lg object-cover -ml-2" />
+                                <img src={truck} alt="Truck" className="w-10 h-10 rounded-lg object-cover -ml-2" />
                             </div>
 
                             <p>Enabling flawless logistics<br />across the globe →</p>
